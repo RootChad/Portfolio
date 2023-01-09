@@ -155,6 +155,15 @@ img {
   }
 }
 
-.btn:hover {
+.btn:active {
+  cursor: pointer;
   animation: button-push 0.3s linear 1;
+
+}
+
+.btn:disabled{
+  opacity: 0.5;
+  color: gray;
+  cursor: not-allowed;
+  animation: none;
 }

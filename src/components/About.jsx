@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "../css/about.css"
 import Image from "../assets/avatar-2.svg"
+
 function About() {
     return (
         <section className='about container section' id='about'>
