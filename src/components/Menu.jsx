@@ -4,13 +4,14 @@ import Work3 from "../assets/blog-1.svg";
 import Work4 from "../assets/work-3.svg";
 import Work5 from "../assets/vehicule.png";
 import Work6 from "../assets/work-6.svg";
-import Work7 from "../assets/out.png";
+import Work7 from "../assets/portfolio.png";
 const Menu = [
     {
       id: 1,
       image: Work1,
       title: "Outreach the new beginning",
       category: "Game",
+      techno:"C#, Unity",
       link:"https://miradoralafi.itch.io/outer-reach"
     },
     {
@@ -18,6 +19,7 @@ const Menu = [
       image: Work2,
       title: "Pixel Adventure",
       category: "Game",
+      techno:"C#, Unity",
       link:"https://sangchad.itch.io/pixeladventure"
     },
     {
@@ -25,6 +27,7 @@ const Menu = [
       image: Work3,
       title: "Bet website and application",
       category: "Web",
+      techno:"Angular, NodeJs, MongoDB, AndroidNative",
       link:"https://github.com/Maharo7/mbdsp7_TPT_092535"
     },
     ,
@@ -33,6 +36,7 @@ const Menu = [
       image: Work4,
       title: "Poker-Game",
       category: "Game",
+      techno:"C#, Unity",
       link:"https://github.com/MiradoRalafi/Poker-Game-Project"
     },
     ,
@@ -41,6 +45,7 @@ const Menu = [
       image: Work5,
       title: "Counting Vehicule",
       category: "AI",
+      techno: "Python, OpenCv, YoloV3",
       link:"https://github.com/RootChad/Counting-Vehicle-Python"
     },
     ,
@@ -49,7 +54,16 @@ const Menu = [
       image: Work6,
       title: "Shortest Path Simulation",
       category: "AI",
+      techno: "ReactJs, Css, Html",
       link:"https://github.com/RootChad/ShortestPathSimulation"
+    },
+    {
+      id: 7,
+      image: Work7,
+      title: "Portfolio",
+      category: "Web",
+      techno: "ReactJs, Css, Html",
+      link:"https://rootchad.github.io/Portfolio/"
     },
   ];
 

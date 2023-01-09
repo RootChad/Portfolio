@@ -75,6 +75,18 @@
     opacity: 0;
 
 }
+.work_techno{
+    color: rgb(254, 249, 255);
+    font-size: var(--h4-font-size);
+    margin :0 0 0.98rem;
+    padding : 0 1.5rem;
+    position: absolute;
+    top: 6.75rem;
+    transform: translateY(50px);
+    transition: .3s;
+    opacity: 0;
+
+}
 .work_button {
     color: white;
     position: absolute;
@@ -98,6 +110,7 @@
 }
 
 .work_card:hover .work_title,
+.work_card:hover .work_techno,
 .work_card:hover .work_category{
     opacity: 1;
     transform: translateY(0px);
