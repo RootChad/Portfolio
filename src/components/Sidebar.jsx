@@ -8,9 +8,11 @@ function Sidebar() {
     return (
         <>
             <aside className={toggle ? "aside show-menu" : "aside"}>
-                <a href='#home' className='nav_logo'>
+                <Link to="home" spy={true} smooth={true} className='nav_logo'>
+
                     <img src={Logo} alt='logo' />
-                </a>
+
+                </Link>
                 <nav className='nav'>
                     <div className='nav_menu'>
                         <ul className='nav_list'>
