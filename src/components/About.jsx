@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "../css/about.css"
 import Image from "../assets/avatar-2.svg"
-
+import CV from "../assets/CV.pdf"
 function About() {
     return (
         <section className='about container section' id='about'>
@@ -12,7 +12,7 @@ function About() {
                 <div className='about_data grid'>
                     <div className='about_info'>
                         <p className='about_description'>I'm a Software Developer, I have been working in the industry for 3 years. I have worked on many projects, both as a freelancer and as a team member. I have experience in the development of website, mobile application, video game.</p>
-                        <a href={Image} className='btn' download="CV" >Download CV</a>
+                        <a href={CV} className='btn' download="cv" >Download CV</a>
                         
                     </div>
 
